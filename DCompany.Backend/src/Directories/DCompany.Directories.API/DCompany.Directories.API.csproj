@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Shared\DCompany.Shared.Framework\DCompany.Shared.Framework.csproj" />
+    <ProjectReference Include="..\DCompany.Directories.Contracts\DCompany.Directories.Contracts.csproj" />
+    <ProjectReference Include="..\DCompany.Directories.UseCases\DCompany.Directories.UseCases.csproj" />
+  </ItemGroup>
+
 </Project>
