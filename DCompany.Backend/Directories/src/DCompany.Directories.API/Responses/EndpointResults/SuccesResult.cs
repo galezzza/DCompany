@@ -1,7 +1,6 @@
 ﻿using System.Net;
-using Microsoft.AspNetCore.Http;
 
-namespace DCompany.Shared.Framework.Responses.EndpointResults;
+namespace DCompany.Directories.API.Responses.EndpointResults;
 
 public class SuccesResult<TValue> : IResult
 {

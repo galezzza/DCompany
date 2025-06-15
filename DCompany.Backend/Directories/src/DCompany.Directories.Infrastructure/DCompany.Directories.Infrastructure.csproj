@@ -7,9 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Shared\DCompany.Shared.Framework\DCompany.Shared.Framework.csproj" />
-    <ProjectReference Include="..\DCompany.Directories.Contracts\DCompany.Directories.Contracts.csproj" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="9.0.6" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\DCompany.Directories.UseCases\DCompany.Directories.UseCases.csproj" />
+    <ProjectReference Include="..\Shared\DCompany.Shared.Core\DCompany.Shared.Core.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,9 +1,8 @@
 ﻿using CSharpFunctionalExtensions;
 using DCompany.Shared.SharedKernel;
-using Microsoft.AspNetCore.Http;
 using IResult = Microsoft.AspNetCore.Http.IResult;
 
-namespace DCompany.Shared.Framework.Responses.EndpointResults;
+namespace DCompany.Directories.API.Responses.EndpointResults;
 
 public class EndpointResult<TValue> : IResult
 {

@@ -1,7 +1,6 @@
 ﻿using DCompany.Shared.SharedKernel;
-using Microsoft.AspNetCore.Http;
 
-namespace DCompany.Shared.Framework.Responses.EndpointResults;
+namespace DCompany.Directories.API.Responses.EndpointResults;
 
 public class ErrorsResult : IResult
 {
