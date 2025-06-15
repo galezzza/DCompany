@@ -1,7 +1,6 @@
-﻿using DCompany.Shared.Framework.Responses;
-using DCompany.Shared.SharedKernel;
+﻿using DCompany.Shared.SharedKernel;
 
-namespace DCompany.WEB.Middlewares;
+namespace DCompany.Directories.API.Middlewares;
 
 public class ExceptionMiddleware : IMiddleware
 {

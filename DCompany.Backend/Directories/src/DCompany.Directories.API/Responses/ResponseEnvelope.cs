@@ -1,6 +1,6 @@
 ﻿using DCompany.Shared.SharedKernel;
 
-namespace DCompany.Shared.Framework.Responses;
+namespace DCompany.Directories.API.Responses;
 
 public record ResponseEnvelope
 {
